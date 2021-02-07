@@ -1,0 +1,42 @@
+name = input ("Please tell me your name and then we'll take a quiz to figure out which dog you are!")
+
+while True:
+    number_1 = int(input("I am a (1) poet (2) scientist (3) sleuth (4) helpful friend"))
+    number_2 = int(input("I am (1) small (2) medium (3) tall (4) very tall"))
+    number_3 = int(input("I am (1) a daredevil (2) an explorer (3) a scaredy cat (4) whatever you want me to be"))
+    number_4 = int(input ("I prefer (1) birds (2) dehydrated foods (3) snacks (4) people"))   
+
+    if (number_1 + number_2 + number_3 + number_4) <= 6:
+         print("You'll be happy to know, "+(name)+", that you are a Snoopy!")
+    elif (number_1 + number_2 + number_3 + number_4) == 7:
+         print("You'll be happy to know, "+(name)+", that you are a Laika the Cosmonaut!")
+    elif (number_1 + number_2 + number_3 + number_4) == 8:
+         print("You'll be happy to know, "+(name)+", that you are a Laika the Cosmonaut!")
+    elif (number_1 + number_2 + number_3 + number_4) == 9:
+          print("You'll be happy to know, "+(name)+", that you are a Laika the Cosmonaut!")
+    elif (number_1 + number_2 + number_3 + number_4) == 10:
+          print("You'll be happy to know, "+(name)+", that you are a Scooby Doo!")
+    elif (number_1 + number_2 + number_3 + number_4) == 11:
+          print("You'll be happy to know, "+(name)+", that you are a Scooby Doo!")
+    elif (number_1 + number_2 + number_3 + number_4) == 12:
+         print("You'll be happy to know, "+(name)+", that you are a Scooby Doo!")
+    elif (number_1 + number_2 + number_3 + number_4) == 13:
+         print("You'll be happy to know, "+(name)+", that you are a Scooby Doo!")
+    elif (number_1 + number_2 + number_3 + number_4) >= 14:
+        print("You'll be happy to know, "+(name)+", that you are a Clifford the Big Red Dog!")
+
+    play_again = input("If you'd like to play again, type yes; if not, type no")
+    if play_again == "yes":
+        continue
+    elif play_again == "no":
+        print("Thanks for taking this quiz. See you later, "+(name)+"!")
+        break
+    else:
+       play_again_repeat = input("Sorry, I didn't get that. What would you like to do?")
+    if play_again_repeat == "yes":
+        continue
+    elif play_again_repeat == "no":
+        print("Thanks for taking this quiz. See you later, "+(name)+"!")
+        break
+        
+        
